@@ -10,8 +10,8 @@ spec:
     metadata:
       labels:
         app: mynginx
-    spec:
-      containers:
+      spec:
+       containers:
         - name: mynginx
           image: nginx
           ports:
