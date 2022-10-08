@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mynginx-svs
+  name: maha-svs
   labels:
     app: mynginx
 spec:
@@ -9,8 +9,8 @@ spec:
   ports:
   - port: 80
     nodeport:  30001
-    protocal: TCP
+    protocol: TCP
 selector: 
-    app: mynginx
+   app: mynginx
   
     
